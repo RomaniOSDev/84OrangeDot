@@ -1,0 +1,6 @@
+framework module Pods_84OrangeDot {
+  umbrella header "Pods-84OrangeDot-umbrella.h"
+
+  export *
+  module * { export * }
+}

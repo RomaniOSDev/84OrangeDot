@@ -3,33 +3,67 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		749381822F4B869400624469 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381612F4B869400624469 /* Color+Hex.swift */; };
+		749381832F4B869400624469 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381632F4B869400624469 /* Achievement.swift */; };
+		749381842F4B869400624469 /* DailyChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381642F4B869400624469 /* DailyChallenge.swift */; };
+		749381852F4B869400624469 /* GameStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381652F4B869400624469 /* GameStats.swift */; };
+		749381862F4B869400624469 /* OrangeDot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381662F4B869400624469 /* OrangeDot.swift */; };
+		749381872F4B869400624469 /* AppStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381682F4B869400624469 /* AppStorageService.swift */; };
+		749381882F4B869400624469 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493816A2F4B869400624469 /* GameViewModel.swift */; };
+		749381892F4B869400624469 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493816C2F4B869400624469 /* AchievementsView.swift */; };
+		7493818A2F4B869400624469 /* DailyChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493816D2F4B869400624469 /* DailyChallengeView.swift */; };
+		7493818B2F4B869400624469 /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493816E2F4B869400624469 /* GameOverView.swift */; };
+		7493818C2F4B869400624469 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493816F2F4B869400624469 /* GameView.swift */; };
+		7493818D2F4B869400624469 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381702F4B869400624469 /* HomeView.swift */; };
+		7493818E2F4B869400624469 /* ModesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381712F4B869400624469 /* ModesView.swift */; };
+		7493818F2F4B869400624469 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381722F4B869400624469 /* OnboardingView.swift */; };
+		749381902F4B869400624469 /* RecordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381732F4B869400624469 /* RecordsView.swift */; };
+		749381912F4B869400624469 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381742F4B869400624469 /* SettingsView.swift */; };
+		749381922F4B869400624469 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381752F4B869400624469 /* StatsView.swift */; };
+		749381932F4B869400624469 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381772F4B869400624469 /* AppDelegate.swift */; };
+		749381942F4B869400624469 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381792F4B869400624469 /* ContentView.swift */; };
+		749381952F4B869400624469 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7493817F2F4B869400624469 /* SceneDelegate.swift */; };
+		749381962F4B869400624469 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749381802F4B869400624469 /* ViewController.swift */; };
+		749381972F4B869400624469 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 749381782F4B869400624469 /* Assets.xcassets */; };
+		749381992F4B869400624469 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7493817C2F4B869400624469 /* LaunchScreen.storyboard */; };
+		7493819A2F4B869400624469 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7493817E2F4B869400624469 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		336CB2538696B9E58348C69F /* Pods-84OrangeDot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-84OrangeDot.debug.xcconfig"; path = "Target Support Files/Pods-84OrangeDot/Pods-84OrangeDot.debug.xcconfig"; sourceTree = "<group>"; };
 		7403AEE82F378938002FAF54 /* 84OrangeDot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 84OrangeDot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		749381612F4B869400624469 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		749381632F4B869400624469 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		749381642F4B869400624469 /* DailyChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallenge.swift; sourceTree = "<group>"; };
+		749381652F4B869400624469 /* GameStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStats.swift; sourceTree = "<group>"; };
+		749381662F4B869400624469 /* OrangeDot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeDot.swift; sourceTree = "<group>"; };
+		749381682F4B869400624469 /* AppStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageService.swift; sourceTree = "<group>"; };
+		7493816A2F4B869400624469 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		7493816C2F4B869400624469 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		7493816D2F4B869400624469 /* DailyChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeView.swift; sourceTree = "<group>"; };
+		7493816E2F4B869400624469 /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		7493816F2F4B869400624469 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		749381702F4B869400624469 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		749381712F4B869400624469 /* ModesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModesView.swift; sourceTree = "<group>"; };
+		749381722F4B869400624469 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		749381732F4B869400624469 /* RecordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsView.swift; sourceTree = "<group>"; };
+		749381742F4B869400624469 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		749381752F4B869400624469 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		749381772F4B869400624469 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		749381782F4B869400624469 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		749381792F4B869400624469 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7493817A2F4B869400624469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7493817B2F4B869400624469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7493817D2F4B869400624469 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7493817F2F4B869400624469 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		749381802F4B869400624469 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		75EE88B00B23EFFF9E202FDE /* Pods-84OrangeDot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-84OrangeDot.release.xcconfig"; path = "Target Support Files/Pods-84OrangeDot/Pods-84OrangeDot.release.xcconfig"; sourceTree = "<group>"; };
+		939EA10BE810F7A53E783D7C /* Pods_84OrangeDot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_84OrangeDot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7403AEFA2F37893A002FAF54 /* Exceptions for "84OrangeDot" folder in "84OrangeDot" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7403AEE72F378938002FAF54 /* 84OrangeDot */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7403AEEA2F378938002FAF54 /* 84OrangeDot */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7403AEFA2F37893A002FAF54 /* Exceptions for "84OrangeDot" folder in "84OrangeDot" target */,
-			);
-			path = 84OrangeDot;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7403AEE52F378938002FAF54 /* Frameworks */ = {
@@ -42,11 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A700907A8FFA3DE0E3CD102 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				336CB2538696B9E58348C69F /* Pods-84OrangeDot.debug.xcconfig */,
+				75EE88B00B23EFFF9E202FDE /* Pods-84OrangeDot.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7403AEDF2F378938002FAF54 = {
 			isa = PBXGroup;
 			children = (
-				7403AEEA2F378938002FAF54 /* 84OrangeDot */,
+				749381812F4B869400624469 /* 84OrangeDot */,
 				7403AEE92F378938002FAF54 /* Products */,
+				4A700907A8FFA3DE0E3CD102 /* Pods */,
+				B60F7BFB534150ADBDAD1F12 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +103,86 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		749381622F4B869400624469 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				749381612F4B869400624469 /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		749381672F4B869400624469 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				749381632F4B869400624469 /* Achievement.swift */,
+				749381642F4B869400624469 /* DailyChallenge.swift */,
+				749381652F4B869400624469 /* GameStats.swift */,
+				749381662F4B869400624469 /* OrangeDot.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		749381692F4B869400624469 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				749381682F4B869400624469 /* AppStorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7493816B2F4B869400624469 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7493816A2F4B869400624469 /* GameViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		749381762F4B869400624469 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7493816C2F4B869400624469 /* AchievementsView.swift */,
+				7493816D2F4B869400624469 /* DailyChallengeView.swift */,
+				7493816E2F4B869400624469 /* GameOverView.swift */,
+				7493816F2F4B869400624469 /* GameView.swift */,
+				749381702F4B869400624469 /* HomeView.swift */,
+				749381712F4B869400624469 /* ModesView.swift */,
+				749381722F4B869400624469 /* OnboardingView.swift */,
+				749381732F4B869400624469 /* RecordsView.swift */,
+				749381742F4B869400624469 /* SettingsView.swift */,
+				749381752F4B869400624469 /* StatsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		749381812F4B869400624469 /* 84OrangeDot */ = {
+			isa = PBXGroup;
+			children = (
+				749381622F4B869400624469 /* Extensions */,
+				749381672F4B869400624469 /* Models */,
+				749381692F4B869400624469 /* Services */,
+				7493816B2F4B869400624469 /* ViewModels */,
+				749381762F4B869400624469 /* Views */,
+				749381772F4B869400624469 /* AppDelegate.swift */,
+				749381782F4B869400624469 /* Assets.xcassets */,
+				749381792F4B869400624469 /* ContentView.swift */,
+				7493817A2F4B869400624469 /* Info.plist */,
+				7493817C2F4B869400624469 /* LaunchScreen.storyboard */,
+				7493817E2F4B869400624469 /* Main.storyboard */,
+				7493817F2F4B869400624469 /* SceneDelegate.swift */,
+				749381802F4B869400624469 /* ViewController.swift */,
+			);
+			path = 84OrangeDot;
+			sourceTree = "<group>";
+		};
+		B60F7BFB534150ADBDAD1F12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				939EA10BE810F7A53E783D7C /* Pods_84OrangeDot.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7403AEFB2F37893A002FAF54 /* Build configuration list for PBXNativeTarget "84OrangeDot" */;
 			buildPhases = (
+				BC33375BDE329867A8CF1BF5 /* [CP] Check Pods Manifest.lock */,
 				7403AEE42F378938002FAF54 /* Sources */,
 				7403AEE52F378938002FAF54 /* Frameworks */,
 				7403AEE62F378938002FAF54 /* Resources */,
@@ -73,12 +199,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7403AEEA2F378938002FAF54 /* 84OrangeDot */,
-			);
 			name = 84OrangeDot;
-			packageProductDependencies = (
-			);
 			productName = 84OrangeDot;
 			productReference = 7403AEE82F378938002FAF54 /* 84OrangeDot.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +220,7 @@
 				};
 			};
 			buildConfigurationList = 7403AEE32F378938002FAF54 /* Build configuration list for PBXProject "84OrangeDot" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +228,6 @@
 				Base,
 			);
 			mainGroup = 7403AEDF2F378938002FAF54;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7403AEE92F378938002FAF54 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +242,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749381972F4B869400624469 /* Assets.xcassets in Resources */,
+				749381992F4B869400624469 /* LaunchScreen.storyboard in Resources */,
+				7493819A2F4B869400624469 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BC33375BDE329867A8CF1BF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-84OrangeDot-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7403AEE42F378938002FAF54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				749381822F4B869400624469 /* Color+Hex.swift in Sources */,
+				749381832F4B869400624469 /* Achievement.swift in Sources */,
+				749381842F4B869400624469 /* DailyChallenge.swift in Sources */,
+				749381852F4B869400624469 /* GameStats.swift in Sources */,
+				749381862F4B869400624469 /* OrangeDot.swift in Sources */,
+				749381872F4B869400624469 /* AppStorageService.swift in Sources */,
+				749381882F4B869400624469 /* GameViewModel.swift in Sources */,
+				749381892F4B869400624469 /* AchievementsView.swift in Sources */,
+				7493818A2F4B869400624469 /* DailyChallengeView.swift in Sources */,
+				7493818B2F4B869400624469 /* GameOverView.swift in Sources */,
+				7493818C2F4B869400624469 /* GameView.swift in Sources */,
+				7493818D2F4B869400624469 /* HomeView.swift in Sources */,
+				7493818E2F4B869400624469 /* ModesView.swift in Sources */,
+				7493818F2F4B869400624469 /* OnboardingView.swift in Sources */,
+				749381902F4B869400624469 /* RecordsView.swift in Sources */,
+				749381912F4B869400624469 /* SettingsView.swift in Sources */,
+				749381922F4B869400624469 /* StatsView.swift in Sources */,
+				749381932F4B869400624469 /* AppDelegate.swift in Sources */,
+				749381942F4B869400624469 /* ContentView.swift in Sources */,
+				749381952F4B869400624469 /* SceneDelegate.swift in Sources */,
+				749381962F4B869400624469 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		7493817C2F4B869400624469 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7493817B2F4B869400624469 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7493817E2F4B869400624469 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7493817D2F4B869400624469 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		7403AEFC2F37893A002FAF54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 336CB2538696B9E58348C69F /* Pods-84OrangeDot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -150,27 +339,33 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-4OrangeDot";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhi.b8m1n0sd9t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7403AEFD2F37893A002FAF54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75EE88B00B23EFFF9E202FDE /* Pods-84OrangeDot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -181,22 +376,27 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-4OrangeDot";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nhi.b8m1n0sd9t;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
